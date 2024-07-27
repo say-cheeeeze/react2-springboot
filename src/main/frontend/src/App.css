@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #eeeeee;
+}
+
+tr th:nth-child(1) { width: 30%; }
+tr th:nth-child(2) { width: 35%; }
+tr th:nth-child(3) { width: 35%; }
+
+tr td:nth-child(1) { width: 30%; }
+tr td:nth-child(2) { width: 35%; }
+tr td:nth-child(3) { width: 35%; }
+
+
+th,
+td {
+  padding: 10px;
+}
+.textAlignRight {
+  text-align: right;
+}
+.userDiv {
+  width: 90%;
+  /*text-align: center;*/
+  margin: 0 auto;
+}

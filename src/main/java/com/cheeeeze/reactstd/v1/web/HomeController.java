@@ -10,6 +10,6 @@ public class HomeController {
 	
 	@GetMapping( "/hello" )
 	public String sayHello() {
-		return "Hello, World!";
+		return "port 8080 response";
 	}
 }
